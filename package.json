@@ -1,6 +1,6 @@
 {
   "name": "@divvy-homes/eslint-config-divvyhomes",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "ESLint config for DivvyHomes",
   "main": "index.js",
   "scripts": {
