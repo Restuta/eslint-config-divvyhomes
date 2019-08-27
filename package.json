@@ -34,6 +34,6 @@
   },
   "peerDependencies": {
     "eslint": ">= 5",
-    "babel-eslint": ">= 9"
+    "babel-eslint": ">= 10"
   }
 }
