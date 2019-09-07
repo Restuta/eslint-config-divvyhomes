@@ -124,7 +124,6 @@ module.exports = {
     "no-plusplus": "off",
     "prefer-rest-params": "warn",
 
-    "import-order-autofix/order": ["error", { "newlines-between": "always" }],
     // reasoning around this rule is weak https://github.com/airbnb/javascript/issues/1365
     // but it complicates refactoring in certain cases
     "import/prefer-default-export": "off",
