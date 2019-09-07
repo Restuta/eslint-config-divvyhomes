@@ -20,7 +20,6 @@ module.exports = {
     "flowtype",
     "css-modules",
     "prettier",
-    "import-order-autofix",
     "react-hooks",
     "no-only-tests"
   ],
