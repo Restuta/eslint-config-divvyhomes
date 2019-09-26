@@ -13,7 +13,8 @@ module.exports = {
     "plugin:css-modules/recommended",
     "prettier",
     "prettier/flowtype",
-    "prettier/react"
+    "prettier/react",
+    "plugin:jest/recommended"
   ],
 
   plugins: [
@@ -21,7 +22,8 @@ module.exports = {
     "css-modules",
     "prettier",
     "react-hooks",
-    "no-only-tests"
+    "no-only-tests",
+    "jest"
   ],
 
   globals: {
@@ -30,7 +32,8 @@ module.exports = {
   },
 
   env: {
-    browser: true
+    browser: true,
+    "jest/globals": true
   },
 
   rules: {
