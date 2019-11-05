@@ -23,7 +23,8 @@ module.exports = {
     "prettier",
     "react-hooks",
     "no-only-tests",
-    "jest"
+    "jest",
+    "divvy-rules"
   ],
 
   globals: {
@@ -131,7 +132,10 @@ module.exports = {
     // but it complicates refactoring in certain cases
     "import/prefer-default-export": "off",
 
-    "no-only-tests/no-only-tests": "error"
+    "no-only-tests/no-only-tests": "error",
+
+    "divvy-rules/use-core-error": "error",
+    "divvy-rules/use-user-facing-error": "error"
   },
 
   settings: {
