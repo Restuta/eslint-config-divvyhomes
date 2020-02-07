@@ -21,6 +21,7 @@ module.exports = {
     "flowtype",
     "css-modules",
     "prettier",
+    "import",
     "react-hooks",
     "no-only-tests",
     "jest",
