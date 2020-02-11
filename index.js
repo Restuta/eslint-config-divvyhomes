@@ -134,8 +134,9 @@ module.exports = {
 
     "no-only-tests/no-only-tests": "error",
 
-    "divvy-rules/use-core-error": "error",
-    "divvy-rules/use-user-facing-error": "error"
+    "divvy-rules/use-core-error": "warn",
+    "divvy-rules/use-user-facing-error": "warn",
+    "divvy-rules/use-new-with-error": "error"
   },
 
   settings: {
