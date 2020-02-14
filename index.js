@@ -84,7 +84,6 @@ module.exports = {
     "jsx-a11y/click-events-have-key-events": "never",
     "jsx-a11y/mouse-events-have-key-events": "never",
     "jsx-a11y/anchor-is-valid": "never",
-    "jsx-a11y/label-has-for": "never",
     "jsx-a11y/label-has-associated-control": "never",
     "jsx-a11y/no-target-blank": "never",
 
