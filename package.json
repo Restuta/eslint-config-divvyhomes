@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0",
-    "publish": "np --no-tests"
+    "publish": "npx np --no-tests"
   },
   "author": "",
   "license": "ISC",
@@ -33,8 +33,12 @@
     "eslint-plugin-react-hooks": "^1.6.0",
     "prettier": "^1.18.2"
   },
+  "files": [
+    "eslint-plugin-divvy-rules"
+  ],
   "peerDependencies": {
     "eslint": ">= 5",
-    "babel-eslint": ">= 10"
+    "babel-eslint": ">= 10",
+    "np": "6.1.0"
   }
 }
