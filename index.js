@@ -126,7 +126,7 @@ module.exports = {
       },
     ],
 
-    'no-param-reassign': ['error', { props: false }],
+    'no-param-reassign': ['error', { props: true }],
     'no-plusplus': 'off',
     'prefer-rest-params': 'warn',
 
