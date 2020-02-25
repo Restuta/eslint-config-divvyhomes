@@ -4,7 +4,7 @@
   "description": "ESLint config for DivvyHomes",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 0",
+    "test": "./test.sh",
     "publish": "np --no-tests"
   },
   "author": "",
@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "babel-eslint": "^10.0.3",
-    "eslint": "^5.6.0",
+    "eslint": "^6.8.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-prettier": "^3.0.1",
     "eslint-import-resolver-alias": "^1.1.2",
@@ -34,7 +34,7 @@
     "prettier": "^1.18.2"
   },
   "peerDependencies": {
-    "eslint": ">= 5",
+    "eslint": ">= 6",
     "babel-eslint": ">= 10"
   }
 }
