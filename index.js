@@ -88,11 +88,10 @@ module.exports = {
 
     // https://github.com/evcohen/eslint-plugin-jsx-a11y/issues/308#issuecomment-322954274
     'jsx-a11y/label-has-for': 'warn',
-    'jsx-a11y/click-events-have-key-events': 'never',
-    'jsx-a11y/mouse-events-have-key-events': 'never',
-    'jsx-a11y/anchor-is-valid': 'never',
-    'jsx-a11y/label-has-associated-control': 'never',
-    'jsx-a11y/no-target-blank': 'never',
+    'jsx-a11y/click-events-have-key-events': 'error',
+    'jsx-a11y/mouse-events-have-key-events': 'error',
+    'jsx-a11y/anchor-is-valid': 'error',
+    'jsx-a11y/label-has-associated-control': 'error',
 
     // Allow js files to use jsx syntax, too
     'react/jsx-filename-extension': ['error', { extensions: ['.js', '.jsx', '.ts', '.tsx'] }],
@@ -101,15 +100,15 @@ module.exports = {
     // babel-plugin-transform-react-pure-class-to-function
     // https://github.com/kriasoft/react-starter-kit/pull/961
     'react/prefer-stateless-function': 'off',
-    'react/destructuring-assignment': 'never',
-    'react/default-props-match-prop-types': 'never',
-    'react/no-access-state-in-setstate': 'never',
-    'react/require-default-props': 'never',
-    'react/no-unescaped-entities': 'never',
-    'react/sort-comp': 'never',
-    'react/button-has-type': 'never',
-    'react/no-unused-state': 'never',
-    'react/jsx-no-target-blank': 'never',
+    'react/destructuring-assignment': 'error',
+    'react/default-props-match-prop-types': 'error',
+    'react/no-access-state-in-setstate': 'error',
+    'react/require-default-props': 'error',
+    'react/no-unescaped-entities': 'error',
+    'react/sort-comp': 'error',
+    'react/button-has-type': 'error',
+    'react/no-unused-state': 'error',
+    'react/jsx-no-target-blank': 'error',
 
     // https://www.npmjs.com/package/eslint-plugin-react-hooks
     'react-hooks/rules-of-hooks': 'error',
