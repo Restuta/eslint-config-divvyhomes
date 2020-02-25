@@ -23,8 +23,15 @@ module.exports = {
     "prettier",
     "react-hooks",
     "no-only-tests",
-    "jest",
-    "divvy-rules"
+    "jest"
+    /* NOTE: adding rules as ESLint plugin like this didn't work in the context of NPM
+     * package. After we published a new version with added "eslint-plugin-divvy-rules"
+     * folder it broke builds as consumers couldn't install the library anymore. Error that
+     * we saw:
+     * Could not install from "node_modules/@divvy-homes/eslint-config-divvyhomes/eslint-plugin-divvy-rules" as it does not contain a package.json file.
+     *
+     */
+    // "divvy-rules"
   ],
 
   globals: {
@@ -131,11 +138,11 @@ module.exports = {
     // but it complicates refactoring in certain cases
     "import/prefer-default-export": "off",
 
-    "no-only-tests/no-only-tests": "error",
+    "no-only-tests/no-only-tests": "error"
 
-    "divvy-rules/use-core-error": "warn",
-    "divvy-rules/use-user-facing-error": "warn",
-    "divvy-rules/use-new-with-error": "error"
+    // "divvy-rules/use-core-error": "warn",
+    // "divvy-rules/use-user-facing-error": "warn",
+    // "divvy-rules/use-new-with-error": "error"
   },
 
   settings: {

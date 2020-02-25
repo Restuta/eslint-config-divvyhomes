@@ -1,11 +1,11 @@
 {
   "name": "@divvy-homes/eslint-config-divvyhomes",
-  "version": "2.1.3",
+  "version": "3.3.1",
   "description": "ESLint config for DivvyHomes",
   "main": "index.js",
   "scripts": {
     "test": "./test.sh",
-    "publish": "np --no-tests"
+    "publish": "npx np --no-tests --no-yarn"
   },
   "author": "",
   "license": "ISC",
@@ -22,7 +22,6 @@
     "eslint-import-resolver-node": "^0.3.2",
     "eslint-plugin-css-modules": "^2.11.0",
     "eslint-plugin-cypress": "^2.2.1",
-    "eslint-plugin-divvy-rules": "file:eslint-plugin-divvy-rules",
     "eslint-plugin-flowtype": "^2.50.1",
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-jest": "^22.17.0",
@@ -35,6 +34,7 @@
   },
   "peerDependencies": {
     "eslint": ">= 6",
-    "babel-eslint": ">= 10"
+    "babel-eslint": ">= 10",
+    "np": "6.1.0"
   }
 }
